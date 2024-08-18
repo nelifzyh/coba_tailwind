@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout</title>
+    <link href="../output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Aspect Rasio -->
+    <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Aspect Rasio</h1>
+    <iframe src="https://www.youtube.com/embed/dZFI3jKmo3Y" class="aspect-video p-5"></iframe>
+    <iframe src="https://www.youtube.com/embed/dZFI3jKmo3Y" class="aspect-auto p-5"></iframe>
+    <iframe src="https://www.youtube.com/embed/dZFI3jKmo3Y" class="aspect-square p-5"></iframe>
+
+    <!--container  -->
+    <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Container</h1>
+    <div class="container">Neli</div>
+    <div class="container mx-auto">Neli</div>
+    <div class="container mx-auto px-4">Neli</div>
+    <!--columns  -->
+    <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Columns and Break</h1>
+    <!-- columns 1, break before-->
+    <div class="columns-1">
+      <p>Coba</p>
+      <p class="break-before-avoid">Kolom</p>
+      <p class="break-before-column">Satu</p>
+    </div>
+    <br />
+    <br />
+    <!-- columns 2, break after -->
+    <div class="columns-2">
+      <p>Coba</p>
+      <p class="break-after-column">Kolom</p>
+      <p>Dua</p>
+    </div>
+    <br />
+    <br />
+    <div class="columns-3">
+      <p>Coba</p>
+      <p>Kolom</p>
+      <p>Dua</p>
+    </div>
+    <br />
+    <br />
+    <div class="columns-auto">
+      <p>Coba</p>
+      <p>Kolom</p>
+      <p>Dua</p>
+    </div>
+    <br />
+    <br />
+    <div class="columns-3xs">
+      <p>Coba</p>
+      <p>Kolom</p>
+      <p>Dua</p>
+    </div>
+    <br />
+    <br />
+    <div class="columns-2xl">
+      <p>Coba</p>
+      <p>Kolom</p>
+      <p>Dua</p>
+    </div>
+    <br />
+    <br />
+    <div class="columns-12">
+      <p>Coba</p>
+      <p>Kolom</p>
+      <p>Dua</p>
+    </div>
+    <!-- Box decoration, sizing-->
+    <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Box decoration, sizing</h1>
+    <span class="box-decoration-slice bg-purple-500 box-border">
+      Hello <br />
+      Neli
+    </span>
+    <br />
+    <span class="box-decoration-clone bg-red-500 box-border">
+      Hello <br />
+      Neli
+    </span>
+    <!-- float -->
+    <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Float</h1>
+    <img class="float-right" src="../Flat.jpg" />
+    <p>
+      Investigation is a systematic process of gathering, analyzing, and interpreting information to uncover the truth or solve a specific problem. It involves planning the investigation, collecting relevant data through methods like
+      interviews or document reviews, analyzing the information to identify patterns or key findings, and drawing conclusions based on this analysis. The results are then documented in a report, often with recommendations for further
+      action, followed by any necessary corrective measures to resolve the issue. This methodical approach ensures that the investigation is thorough, accurate, and unbiased.
+    </p>
+    <!-- Over flow -->
+    <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Over flow</h1>
+    <div class="flex justify-start items-center p-20">
+      <img src="../Flat.jpg" class="rounded-full flex w-12 h-12 mx-7" />
+      <div class="flex flex-col">
+        <h1>Neli Fauziyah</h1>
+        <p>FrontEnd Engineer</p>
+      </div>
+    </div>
+  </body>
+</html>
