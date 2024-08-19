@@ -11,15 +11,18 @@
 <body>
   <!-- Aspect Rasio -->
   <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Aspect Rasio</h1>
-  <iframe src="https://www.youtube.com/embed/dZFI3jKmo3Y" class="aspect-video p-5"></iframe>
-  <iframe src="https://www.youtube.com/embed/dZFI3jKmo3Y" class="aspect-auto p-5"></iframe>
-  <iframe src="https://www.youtube.com/embed/dZFI3jKmo3Y" class="aspect-square p-5"></iframe>
+  <div class="flex flex-col">
+    <iframe src="https://www.youtube.com/embed/dZFI3jKmo3Y" class="aspect-video p-5"></iframe>
+    <iframe src="https://www.youtube.com/embed/dZFI3jKmo3Y" class="aspect-auto p-5"></iframe>
+    <iframe src="https://www.youtube.com/embed/dZFI3jKmo3Y" class="aspect-square p-5"></iframe>
+  </div>
 
   <!--container  -->
   <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Container</h1>
   <div class="container">Neli</div>
   <div class="container mx-auto">Neli</div>
   <div class="container mx-auto px-4">Neli</div>
+
   <!--columns  -->
   <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Columns and Break</h1>
   <!-- columns 1, break before-->
@@ -41,51 +44,32 @@
   <div class="columns-3">
     <p>Coba</p>
     <p>Kolom</p>
-    <p>Dua</p>
+    <p>tiga</p>
   </div>
   <br />
   <br />
   <div class="columns-auto">
     <p>Coba</p>
     <p>Kolom</p>
-    <p>Dua</p>
-  </div>
-  <br />
-  <br />
-  <div class="columns-3xs">
-    <p>Coba</p>
-    <p>Kolom</p>
-    <p>Dua</p>
-  </div>
-  <br />
-  <br />
-  <div class="columns-2xl">
-    <p>Coba</p>
-    <p>Kolom</p>
-    <p>Dua</p>
-  </div>
-  <br />
-  <br />
-  <div class="columns-12">
-    <p>Coba</p>
-    <p>Kolom</p>
-    <p>Dua</p>
+    <p>auto</p>
   </div>
   <!-- Box decoration, sizing-->
   <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Box decoration, sizing</h1>
-  <span class="box-decoration-slice bg-purple-500 box-border">
-    Hello <br />
-    Neli
-  </span>
-  <br />
-  <span class="box-decoration-clone bg-red-500 box-border">
-    Hello <br />
-    Neli
-  </span>
+  <div class="container mx-10">
+    <span class="box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 box-border text-white px-2 text-2xl">
+      Hello <br />
+      Neli
+    </span>
+    <br />
+    <span class="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 box-border text-white px-2 text-2xl">
+      Hello <br />
+      Neli
+    </span>
+  </div>
   <!-- float -->
   <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Float</h1>
   <div class="container mx-5">
-    <img class="float-right w-72 h-72" src="../Flat.jpg" />
+    <img class="float-left w-72 h-72" src="../Flat.jpg" />
     <p>
       Investigation is a systematic process of gathering, analyzing, and interpreting information to uncover the truth
       or
@@ -122,46 +106,75 @@
     </p>
   </div>
   <!-- Over flow -->
-  <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Overflow</h1>
+  <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Overflow X Auto</h1>
   <div class="p-10 overflow-x-auto whitespace-nowrap">
     <div class="inline-flex space-x-4">
-      <a href="../src/latihan/layout.html"
-        class="block w-72 h-72 m-4 rounded-2xl shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105 relative">
-        <img src="https://i.pinimg.com/564x/1e/45/bf/1e45bf851a54c0d317d855e615beffc6.jpg"
-          class="object-cover w-full h-full rounded-2xl" />
-        <div
-          class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-lg font-semibold rounded-2xl">
-          Layout
-        </div>
-      </a>
-      <a href="../src/latihan/"
+      <a href=""
         class="block w-72 h-72 m-4 rounded-2xl shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105 relative">
         <img src="https://i.pinimg.com/564x/21/4b/02/214b027b6a84d7c4d70ceddf737729c8.jpg"
           class="object-cover w-full h-full rounded-2xl" />
-        <div
-          class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-lg font-semibold rounded-2xl">
-          Layout
-        </div>
       </a>
-      <a href="./latihan/layout.html"
+      <a href=""
         class="block w-72 h-72 m-4 rounded-2xl shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105 relative">
         <img src="https://i.pinimg.com/564x/21/4b/02/214b027b6a84d7c4d70ceddf737729c8.jpg"
           class="object-cover w-full h-full rounded-2xl" />
-        <div
-          class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-lg font-semibold rounded-2xl">
-          Layout
-        </div>
       </a>
-      <a href="layout.html"
+      <a href=""
         class="block w-72 h-72 m-4 rounded-2xl shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105 relative">
         <img src="https://i.pinimg.com/564x/21/4b/02/214b027b6a84d7c4d70ceddf737729c8.jpg"
           class="object-cover w-full h-full rounded-2xl" />
-        <div
-          class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-lg font-semibold rounded-2xl">
-          Layout
-        </div>
+      </a>
+      <a href=""
+        class="block w-72 h-72 m-4 rounded-2xl shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105 relative">
+        <img src="https://i.pinimg.com/564x/21/4b/02/214b027b6a84d7c4d70ceddf737729c8.jpg"
+          class="object-cover w-full h-full rounded-2xl" />
+      </a>
+      <a href=""
+        class="block w-72 h-72 m-4 rounded-2xl shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105 relative">
+        <img src="https://i.pinimg.com/564x/21/4b/02/214b027b6a84d7c4d70ceddf737729c8.jpg"
+          class="object-cover w-full h-full rounded-2xl" />
+      </a>
+      <a href=""
+        class="block w-72 h-72 m-4 rounded-2xl shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105 relative">
+        <img src="https://i.pinimg.com/564x/21/4b/02/214b027b6a84d7c4d70ceddf737729c8.jpg"
+          class="object-cover w-full h-full rounded-2xl" />
+      </a>
+      <a href=""
+        class="block w-72 h-72 m-4 rounded-2xl shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105 relative">
+        <img src="https://i.pinimg.com/564x/21/4b/02/214b027b6a84d7c4d70ceddf737729c8.jpg"
+          class="object-cover w-full h-full rounded-2xl" />
+      </a>
+      <a href=""
+        class="block w-72 h-72 m-4 rounded-2xl shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105 relative">
+        <img src="https://i.pinimg.com/564x/21/4b/02/214b027b6a84d7c4d70ceddf737729c8.jpg"
+          class="object-cover w-full h-full rounded-2xl" />
+      </a>
+      <a href=""
+        class="block w-72 h-72 m-4 rounded-2xl shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105 relative">
+        <img src="https://i.pinimg.com/564x/21/4b/02/214b027b6a84d7c4d70ceddf737729c8.jpg"
+          class="object-cover w-full h-full rounded-2xl" />
       </a>
     </div>
+  </div>
+  <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Overflow Auto</h1>
+  <div class="overflow-auto bg-gray-500 
+                p-4 mx-20 h-24 text-justify text-white">
+    Hidup adalah perjalanan yang penuh warna dan kompleksitas, di mana setiap langkah membawa kita ke pengalaman baru
+    dan pengetahuan yang lebih dalam tentang diri kita sendiri dan dunia di sekitar kita. Sejak kita membuka mata di
+    dunia ini, kita dihadapkan pada berbagai tantangan, peluang, dan pilihan yang membentuk jalan hidup kita. Hidup
+    bukan hanya tentang mencapai tujuan-tujuan yang telah ditetapkan atau mengumpulkan pencapaian material, tetapi juga
+    tentang memahami dan menikmati proses perjalanan itu sendiri. Setiap hari menawarkan kesempatan untuk belajar,
+    berkembang, dan menemukan makna dalam hal-hal kecil yang sering kali kita anggap sepele. Dari hubungan yang kita
+    bangun dengan orang-orang di sekitar kita hingga refleksi pribadi dan pencarian jati diri, setiap pengalaman memberi
+    warna pada kanvas kehidupan kita. Kita belajar dari kegagalan dan kesuksesan, merayakan kebahagiaan dan menghadapi
+    kesedihan dengan kekuatan dan ketahanan yang tak terduga. Hidup juga merupakan kesempatan untuk memberikan
+    kontribusi positif kepada masyarakat, untuk berbagi kebaikan dan empati, serta untuk meninggalkan jejak yang berarti
+    bagi generasi mendatang. Dalam perjalanan ini, kita sering kali dihadapkan pada pertanyaan mendalam tentang tujuan
+    dan makna, yang mendorong kita untuk mencari lebih dalam dan merenungkan apa yang benar-benar penting. Pada
+    akhirnya, hidup adalah kombinasi dari momen-momen berharga, keputusan yang bijaksana, dan pengalaman yang membentuk
+    kita menjadi pribadi yang lebih baik. Dengan setiap hari yang berlalu, kita terus menulis cerita kita sendiri,
+    menjadikannya sebuah narasi yang unik dan berharga, yang penuh dengan kemungkinan dan keajaiban yang menanti untuk
+    ditemukan.
   </div>
 </body>
 

@@ -1,21 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filter</title>
     <link href="../output.css" rel="stylesheet" />
 </head>
+
 <body>
     <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Blur</h1>
-    <div class="blur-2xl">
-        <img src="../Flat.jpg" alt="">
-        <img src="../Flat.jpg" class="rotate-90">
+    <div class="blur-2xl flex items-center justify-center">
+        <img src="../Flat.jpg">
+    </div>
+    <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Drop Shadow</h1>
+    <div class="drop-shadow-2xl flex items-center justify-center">
+        <img src="../Flat.jpg">
+    </div>
+    <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Gray Scale</h1>
+    <div class="grayscale flex items-center justify-center">
+        <img src="../Flat.jpg">
+    </div>
+    <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Sepia</h1>
+    <div class="sepia flex items-center justify-center">
+        <img src="../Flat.jpg">
     </div>
     <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Invert</h1>
-    <div class="invert">
-        <img src="../Flat.jpg" alt="">
+    <div class="invert flex items-center justify-center">
+        <img src="../Flat.jpg">
+    </div>
+    <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Rotate</h1>
+    <div class="flex items-center justify-center">
+        <img src="../Flat.jpg" class="rotate-90">
+    </div>
+    <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Skew</h1>
+    <div class="flex items-center justify-center">
         <img src="../Flat.jpg" class="skew-x-12">
     </div>
+    <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Transform Origin</h1>
+    <div class="flex items-center justify-center p-10">
+        <img src="../Flat.jpg" class="origin-center rotate-45 w-36 h-auto">
+        <img src="../Flat.jpg" class="origin-top-left rotate-12 w-36 h-auto">
+        <img src="../Flat.jpg" class="origin-bottom rotate-12 w-36 h-auto">
+    </div>
 </body>
+
 </html>
