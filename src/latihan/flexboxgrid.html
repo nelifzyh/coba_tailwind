@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox and Grid</title>
+    <link href="../output.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Flex -->
+    <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Flex</h1>
+    <div class="flex items-center p-6 border border-gray-300 shadow-lg bg-white max-w-md mx-auto">
+        <div class="w-1/3">
+          <img src="https://i.pinimg.com/564x/70/8b/e0/708be0e428ff5233c01703c62a805535.jpg" class="w-72 h-auto rounded-lg">
+        </div>
+        <div class="w-2/3 p-4">
+          <h2 class="text-3xl font-semibold">Neli Fauziyah</h2>
+          <p class="text-gray-600 text-xl">FrontEnd Developer</p>
+        </div>
+      </div>
+      <!-- Order -->
+      <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Order</h1>
+      <div class="container mx-5 flex justify-between p-5">
+        <div class="order-last p-2 border-l-indigo-600">YOW (01)</div>
+        <div class="p-2 border-l-orange-400">HAI (02)</div>
+        <div class="p-2 bg-red-500">HELLO (03)</div>
+      </div>
+      <div class="container mx-5 flex justify-between p-5">
+        <div class="bg-black text-red-500">THIS</div>
+        <div class="order-first border-orange-950 text-white">ORDER</div>
+        <div class="p-2 border-y-indigo-900">Fist ini 'Order'</div>
+      </div>
+      <!-- Grid -->
+      <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Grid</h1>
+      <div class="grid grid-flow-row auto-rows-max">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+      </div>
+      <!-- Gap -->
+      <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Gap</h1>
+      <div class="grid gap-x-8 gap-y-4 grid-cols-3">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+        <div>04</div>
+        <div>05</div>
+        <div>06</div>
+      </div>
+      <!-- Justify -->
+      <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Justify</h1>
+      <div class="flex justify-start p-5">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+      </div>
+      <div class="flex justify-end p-5">
+        <div>01</div>
+        <div class="justify-self-start mx-10 bg-purple-700">02</div>
+        <div>03</div>
+      </div>
+      <div class="flex justify-center p-5">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+      </div>
+      <!-- Align -->
+      <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Align</h1>
+      <div class="flex items-start justify-between">
+        <div class="py-4 bg-red-500">01</div>
+        <div class="py-12 bg-red-500">02</div>
+        <div class="py-8 bg-red-500">03</div>
+      </div>
+</body>
+</html>

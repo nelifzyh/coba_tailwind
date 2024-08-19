@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactivity</title>
+    <link href="../output.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Interactivity</h1>
+    <div class="p-10">
+        <label>
+            <input type="checkbox" checked> Browser default
+        </label>
+        <label>
+            <input type="checkbox" class="accent-pink-500" checked> Customized
+        </label>
+    </div>
+    <h1 class="flex justify-center p-10 bg-orange-300 font-mono text-3xl">Cursor</h1>
+    <button type="button"
+        class="cursor-pointer mx-10 flex justify-center items-center transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 px-4 py-2 rounded-lg mt-10 text-white">
+        Submit
+    </button>
+    <button type="button"
+        class="cursor-progress mx-10 flex justify-center items-center transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 px-4 py-2 rounded-lg mt-10 text-white">
+        Saving...
+    </button>
+    <button type="button" disabled
+        class="cursor-not-allowed mx-10 flex justify-center items-center transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 px-4 py-2 rounded-lg mt-10 text-white">
+        Confirm
+    </button>
+</body>
+
+</html>
